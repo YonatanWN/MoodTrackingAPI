@@ -61,7 +61,7 @@ This project has 3 different parts to its functionality
 - For a better REST API experience, I would add user Authentication tokens. This would allow API requests to use tokens instead of logging in each time and could allow for more effective GET and POST automation.  
 - I would configure the app for Docker so one could test the project on a small network
 - Create a better dynamic User Interface for Full-Stack experience
-- For better performance on a larger scale streak calculations should be performed in the models instead of views
+- For better performance on a larger scale, streak calculations should be performed in the models instead of views
 - Track User Consistent Use, Provide Badges/Achievements
 
 ## Tools and Resources Used

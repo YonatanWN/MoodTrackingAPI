@@ -60,4 +60,6 @@ This project has 3 different parts to its functionality
 - Currently this project does not have a custom User Model and instead utilizes the built in Django User model. If this was a production application with more users and data, it would be more effective to create a User Model that holds a list of Mood Inputs, instead of Mood Inputs holding a user id.
 - For a better REST API experience, I would add user Authentication tokens. This would allow API requests to use tokens instead of logging in each time and could allow for more effective GET and POST automation.  
 - I would configure the app for Docker so one could test the project on a small network
-- Create better dynamic User Interface for Full-Stack
+- Create a better dynamic User Interface for Full-Stack experience
+- For better performance on a larger scale streak calculations should be performed in the models instead of views
+- Track User Consistent Use, Provide Badges/Achievements

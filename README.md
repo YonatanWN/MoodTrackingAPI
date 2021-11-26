@@ -63,3 +63,8 @@ This project has 3 different parts to its functionality
 - Create a better dynamic User Interface for Full-Stack experience
 - For better performance on a larger scale streak calculations should be performed in the models instead of views
 - Track User Consistent Use, Provide Badges/Achievements
+
+## Tools and Resources Used
+
+- API Interface was taken from:  https://www.django-rest-framework.org/tutorial/4-authentication-and-permissions/
+- Full Stack Dev Work was Inspired by: https://www.techwithtim.net 

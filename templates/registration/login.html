@@ -1,0 +1,43 @@
+{% extends 'registration/registrationbasetemplate.html' %}
+{% load crispy_forms_tags %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+    <style>
+    .col-md{
+
+        padding-top: 5px;
+    }
+
+    </style>
+
+      <div class = "container">
+
+        <form method="post" class="form-group">
+            <div class="row">
+                <div class ="col-sm">
+
+                    {% csrf_token %}
+                    {{ form|crispy }}
+                </div>
+
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md justify-content-center">
+                    <button type="submit" class="btn btn-success">Login</button>
+                </div>
+
+            </div>
+            <div class = "row">
+                  <a href="/register">Create an account here</a>
+            </div>
+
+        </form>
+      </div>
+
+
+
+
+{% endblock content %}
